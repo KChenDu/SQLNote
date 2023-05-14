@@ -46,5 +46,40 @@
 		FROM Customers
 		WHERE cust_email IS NULL;
 		```
+3. Combining WHERE Clauses
+	1. Using the AND Operator
+		```sql
+		SELECT prod_id, prod_price, prod_name
+		FROM Products
+		WHERE vend_id = 'DLL01' AND prod_price <= 4;
+		```
+	2. Using the OR Operator
+		```sql
+		SELECT prod_id, prod_price, prod_name
+		FROM Products
+		WHERE vend_id = 'DLL01' OR vend_id = 'BRS01';
+		```
+	3. Understanding Order of Evaluation
+		```sql
+		SELECT prod_name, prod_price FROM Products
+		WHERE vend_id = 'DLL01' OR vend_id = 'BRS01' AND prod_price >= 10;
+		```
+		```sql
+		SELECT prod_name, prod_price FROM Products
+		WHERE (vend_id = 'DLL01' OR vend_id = 'BRS01') AND prod_price >= 10;
+		```
+4. Using the IN Operator
+	```sql
+	SELECT prod_name, prod_price
+	FROM Products
+	WHERE vend_id IN ('DLL01','BRS01')
+	ORDER BY prod_name;
+	```
+5. Using the NOT Operator
+	```sql
+	SELECT prod_name FROM Products
+	WHERE NOT vend_id = 'DLL01'
+	ORDER BY prod_name;
+	```
 
-[back](readme.md)
+[[readme|back]]

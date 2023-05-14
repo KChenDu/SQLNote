@@ -26,4 +26,4 @@
 	ORDER BY prod_price DESC, prod_name;
 	```
 
-[back](readme.md)
+[[readme|back]]
