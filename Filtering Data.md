@@ -6,7 +6,7 @@
 	```
 	- CAUTION: WHERE Clause Position
 		When using both ORDER BY and WHERE clauses, make sure that ORDER BY comes after the WHERE. Otherwise, an error will be generated.
-2. The WHERE Clause Operators
+1. The WHERE Clause Operators
 	1. Checking Against a Single Value
 		```sql
 		SELECT prod_name, prod_price
