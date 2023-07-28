@@ -5,3 +5,5 @@
 - [[Creating Calculated Fields]]
 - [[Using Data Manipulation Functions]]
 - [[Summarizing Data]]
+- [[Grouping Data]]
+- 

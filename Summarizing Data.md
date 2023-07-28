@@ -29,14 +29,14 @@
 		```
 		- TIP: Using MAX() with Nonnumeric Data
 			Although MAX() is usually used to find the highest numeric or date values, many (but not all) DBMSs allow it to be used to return the highest value in any columns including textual columns. When used with textual data, MAX() returns the row that would be the last if the data were sorted by that column.
-	3. The MIN() Function
+	4. The MIN() Function
 		```sql
 		SELECT MIN(prod_price) AS min_price
 		FROM Products;
 		```
 		- TIP: Using MIN() with Nonnumeric Data
 			Although MIN() is usually used to find the lowest numeric or date values, many (but not all) DBMSs allow it to be used to return the lowest value in any columns including textual columns. When used with textual data, MIN() will return the row that would be first if the data were sorted by that column.
-	4. The SUM() Function
+	5. The SUM() Function
 		```sql
 		SELECT SUM(quantity) AS items_ordered
 		FROM OrderItems
