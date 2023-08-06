@@ -7,4 +7,5 @@
 - [[Summarizing Data]]
 - [[Grouping Data]]
 - [[Working with Subqueries]]
+- [[Joining Tables]]
 - 
