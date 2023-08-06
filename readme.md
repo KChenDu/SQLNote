@@ -8,4 +8,5 @@
 - [[Grouping Data]]
 - [[Working with Subqueries]]
 - [[Joining Tables]]
+- [[Creating Advanced Joins]]
 - 
