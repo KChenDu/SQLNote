@@ -6,4 +6,5 @@
 - [[Using Data Manipulation Functions]]
 - [[Summarizing Data]]
 - [[Grouping Data]]
+- [[Working with Subqueries]]
 - 
