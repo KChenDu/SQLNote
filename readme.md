@@ -9,4 +9,6 @@
 - [[Working with Subqueries]]
 - [[Joining Tables]]
 - [[Creating Advanced Joins]]
+- [[Combining Queries]]
+- [[Inserting Data]]
 - 
