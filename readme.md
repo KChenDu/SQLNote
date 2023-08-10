@@ -11,4 +11,5 @@
 - [[Creating Advanced Joins]]
 - [[Combining Queries]]
 - [[Inserting Data]]
+- [[Updating and Deleting Data]]
 - 
