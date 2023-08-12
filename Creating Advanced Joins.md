@@ -26,7 +26,7 @@
 		```sql
 		SELECT Customers.cust_id, Orders.order_num
 		FROM Customers
-		LEFT OUTER JOIN Orders ON Customers.cust_id = Orders.cust_id;
+		RIGHT OUTER JOIN Orders ON Customers.cust_id = Orders.cust_id;
 		```
 		- TIP: Outer Join Types
 			Remember that there are always two basic forms of outer joins—the left outer join and the right outer join. The only difference between them is the order of the tables that they are relating. In other words, a left outer join can be turned into a right outer join simply by reversing the order of the tables in the FROM or WHERE clause. As such, the two types of outer join can be used interchangeably, and the decision about which one is used is based purely on convenience.
