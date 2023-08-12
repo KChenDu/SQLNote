@@ -12,4 +12,5 @@
 - [[Combining Queries]]
 - [[Inserting Data]]
 - [[Updating and Deleting Data]]
+- [[Creating and Manipulating Tables]]
 - 
