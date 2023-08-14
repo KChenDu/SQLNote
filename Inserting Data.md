@@ -73,7 +73,8 @@
 			This example uses the same column names in both the INSERT and SELECT statements for simplicity’s sake. But there is no requirement that the column names match. In fact, the DBMS does not even pay attention to the column names returned by the SELECT. Rather, the column position is used, so the first column in the SELECT statement (regardless of its name) will be used to populate the first specified table column, and so on.
 2. Copying from One Table to Another
 	```sql
-	SELECT * INTO CustCopy FROM Customers;
+	SELECT * INTO CustCopy
+	FROM Customers;
 	```
 	- TIP: Making Copies of Tables
 		The technique described here is a great way to make copies of tables before experimenting with new SQL statements. By making a copy first, you’ll be able to test your SQL on that copy instead of on live data.

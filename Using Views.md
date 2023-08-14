@@ -18,7 +18,8 @@
 	3. Using Views to Filter Unwanted Data
 		```sql
 		CREATE VIEW CustomerEMailList AS
-		SELECT cust_id, cust_name, cust_email FROM Customers
+		SELECT cust_id, cust_name, cust_email
+		FROM Customers
 		WHERE cust_email IS NOT NULL;
 		```
 		- NOTE: WHERE Clauses and WHERE Clauses
