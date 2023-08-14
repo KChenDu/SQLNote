@@ -16,4 +16,4 @@
 16. [[Working with Stored Procedures]]
 17. [[Managing Transaction Processing]]
 18. [[Using Cursors]]
-19. 
+19. [[Understanding Advanced SQL Features]]
